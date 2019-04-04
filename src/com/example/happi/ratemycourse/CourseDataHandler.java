@@ -19,7 +19,6 @@ public class CourseDataHandler extends SQLiteOpenHelper
     private static final String LOG_TAG = "CourseDataHandler";
 
 
-
     public enum DBCols
     {
         COURSE_ID,
