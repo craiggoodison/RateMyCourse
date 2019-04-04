@@ -56,6 +56,7 @@ public class CourseDataHandler extends SQLiteOpenHelper
         //_dbColNames.put( DBCols.SEMESTER_OFFERED, new EnumHelper( "semester_offered", index++ ) );
         _dbColNames.put( DBCols.INSTRUCTOR_FIRSTNAME, new EnumHelper( "instructor firstname", index++ ) );
 
+
         _db = getWritableDatabase();
         onCreate( _db );
     }
